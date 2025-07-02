@@ -1,3 +1,20 @@
+/**
+ * Smart Fertilizer - Global Styles & Design System
+ * 
+ * @description Professional styling for modern agricultural AI platform
+ * @author Developer AAR
+ * @version 1.0.0
+ * @repository https://github.com/UserAAR/smart-fertilizer
+ * 
+ * Design Philosophy:
+ * - Clean, modern aesthetics
+ * - Accessibility-first approach
+ * - Mobile-responsive design
+ * - Performance optimized
+ * 
+ * Styled with precision by AAR 🎨
+ */
+
 @import "tailwindcss";
 
 /* Global Reset */

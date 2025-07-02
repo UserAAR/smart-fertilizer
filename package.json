@@ -1,8 +1,32 @@
 {
   "name": "smart-fertilizer",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "AI-powered fertilizer recommendation system for modern agriculture",
+  "author": {
+    "name": "Developer AAR",
+    "email": "aar@developer.com",
+    "url": "https://github.com/UserAAR"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UserAAR/smart-fertilizer.git"
+  },
+  "homepage": "https://github.com/UserAAR/smart-fertilizer#readme",
+  "bugs": {
+    "url": "https://github.com/UserAAR/smart-fertilizer/issues"
+  },
+  "keywords": [
+    "agriculture",
+    "fertilizer",
+    "ai",
+    "farming",
+    "plant-analysis",
+    "react",
+    "tailwind",
+    "gemini-ai"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",

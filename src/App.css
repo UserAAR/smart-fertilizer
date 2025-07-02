@@ -1,0 +1,206 @@
+/* MODERN PROFESSIONAL DESIGN SYSTEM */
+
+/* Base Reset and Layout */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+/* Professional Container System */
+.container-professional {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media (min-width: 1200px) {
+  .container-professional {
+    padding: 0 3rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container-professional {
+    padding: 0 4rem;
+  }
+}
+
+/* Section System */
+.section-full-professional {
+  width: 100%;
+  padding: 5rem 0;
+}
+
+@media (min-width: 768px) {
+  .section-full-professional {
+    padding: 8rem 0;
+  }
+}
+
+/* Modern Card Design */
+.ultra-modern-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.ultra-modern-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 35px 70px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Professional Button System */
+.modern-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+  min-width: 180px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.modern-btn-primary {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  box-shadow: 0 8px 16px -4px rgba(16, 185, 129, 0.3);
+}
+
+.modern-btn-secondary {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  box-shadow: 0 8px 16px -4px rgba(59, 130, 246, 0.3);
+}
+
+.modern-btn:hover {
+  transform: translateY(-2px);
+}
+
+.modern-btn-primary:hover {
+  box-shadow: 0 12px 24px -4px rgba(16, 185, 129, 0.4);
+}
+
+.modern-btn-secondary:hover {
+  box-shadow: 0 12px 24px -4px rgba(59, 130, 246, 0.4);
+}
+
+/* Professional Gradients */
+.text-gradient-professional {
+  background: linear-gradient(135deg, #10b981 0%, #3b82f6 50%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hero Pattern */
+.hero-pattern-professional {
+  background-image: 
+    radial-gradient(circle at 15% 25%, rgba(16, 185, 129, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 85% 15%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 50% 85%, rgba(139, 92, 246, 0.3) 0%, transparent 50%);
+}
+
+/* Professional Animations */
+@keyframes float-professional {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  25% { transform: translateY(-10px) rotate(1deg); }
+  50% { transform: translateY(-5px) rotate(0deg); }
+  75% { transform: translateY(-15px) rotate(-1deg); }
+}
+
+.float-professional {
+  animation: float-professional 6s ease-in-out infinite;
+}
+
+@keyframes glow-professional {
+  0%, 100% { 
+    filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.3));
+    transform: scale(1);
+  }
+  50% { 
+    filter: drop-shadow(0 0 16px rgba(16, 185, 129, 0.6));
+    transform: scale(1.05);
+  }
+}
+
+.glow-professional {
+  animation: glow-professional 3s ease-in-out infinite;
+}
+
+/* Service Card Design */
+.service-card-modern {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  padding: 2.5rem;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.service-card-modern:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Focus States */
+.focus-professional:focus {
+  outline: 2px solid rgba(59, 130, 246, 0.5);
+  outline-offset: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container-professional {
+    padding: 0 1rem;
+  }
+  
+  .section-full-professional {
+    padding: 3rem 0;
+  }
+  
+  .modern-btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.875rem;
+    min-width: 160px;
+  }
+  
+  .ultra-modern-card {
+    padding: 1.5rem;
+  }
+  
+  .service-card-modern {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-professional {
+    padding: 0 1rem;
+  }
+  
+  .modern-btn {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.875rem;
+    min-width: 140px;
+  }
+}

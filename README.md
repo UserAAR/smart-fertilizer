@@ -11,7 +11,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Issues](https://img.shields.io/github/issues/UserAAR/smart-fertilizer)](https://github.com/UserAAR/smart-fertilizer/issues)
 
-[Live Demo](https://useraaar.github.io/smart-fertilizer) • [Documentation](https://github.com/UserAAR/smart-fertilizer/wiki) • [Report Bug](https://github.com/UserAAR/smart-fertilizer/issues) • [Request Feature](https://github.com/UserAAR/smart-fertilizer/issues)
+[Live Demo](https://smart-fertilizer.vercel.app) • [Documentation](https://github.com/UserAAR/smart-fertilizer/wiki) • [Report Bug](https://github.com/UserAAR/smart-fertilizer/issues) • [Request Feature](https://github.com/UserAAR/smart-fertilizer/issues)
 
 </div>
 

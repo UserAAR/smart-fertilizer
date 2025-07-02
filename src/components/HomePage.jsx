@@ -323,7 +323,7 @@ const HomePage = () => {
                   transition={{ delay: 0.2 }}
                   className="text-xl text-white/90 leading-relaxed max-w-xl"
                 >
-                  Cutting-edge agricultural technology powered by artificial intelligence.
+                  Cutting-edge agricultural technology powered by DevAAR.
                   <span className="text-emerald-300 block mt-2">Expert • Instant • Reliable</span>
                 </motion.p>
               </div>
@@ -433,7 +433,7 @@ const HomePage = () => {
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
                 <div className="flex items-center space-x-3 mb-3">
                   <RocketLaunchIcon className="h-6 w-6 text-emerald-400" />
-                  <span className="text-white font-semibold">Advanced AI Technology</span>
+                  <span className="text-white font-semibold">Powered by DevAAR</span>
                 </div>
                 <p className="text-white/70 text-sm">
                   Our machine learning algorithms continuously improve with every analysis, providing more accurate recommendations over time.
@@ -544,7 +544,7 @@ const HomePage = () => {
             className="border-t border-gray-800 mt-12 pt-8 text-center"
           >
             <p className="text-gray-500 text-sm">
-              © 2024 Smart Fertilizer. Powered by advanced AI technology.
+              © 2024 Smart Fertilizer. Powered by DevAAR.
             </p>
           </motion.div>
         </div>

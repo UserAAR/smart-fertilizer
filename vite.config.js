@@ -2,12 +2,13 @@
  * Vite Configuration - Smart Fertilizer AI
  * 
  * @description Build configuration for modern React development
- * @author Developer AAR
+ * @author DevAAR (Amil Abdullazada)
  * @version 1.0.0
  * @repository https://github.com/UserAAR/smart-fertilizer
+ * @portfolio https://amil.rf.gd
  * 
  * Optimized for performance and development experience
- * Configured by AAR ⚡
+ * Configured by DevAAR ⚡
  */
 
 import { defineConfig } from 'vite'

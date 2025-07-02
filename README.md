@@ -174,11 +174,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Developer AAR**
+**DevAAR**
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/UserAAR)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aar-developer)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aar@developer.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aar-amil)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://amil.rf.gd)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amil.abdullazada@gmail.com)
 
 *Passionate about creating innovative solutions for modern agriculture*
 
@@ -211,6 +212,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repository if you find it helpful!**
 
-**Made with ❤️ by [Developer AAR](https://github.com/UserAAR)**
+**Made with ❤️ by [DevAAR](https://github.com/UserAAR)**
 
 </div>

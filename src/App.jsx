@@ -2,16 +2,17 @@
  * Smart Fertilizer App - Main Application Component
  * 
  * @description Core application component handling routing and layout
- * @author Developer AAR
+ * @author DevAAR (Amil Abdullazada)
  * @version 1.0.0
  * @repository https://github.com/UserAAR/smart-fertilizer
+ * @portfolio https://amil.rf.gd
  * 
  * Features:
  * - AI-powered plant analysis
  * - Smart chatbot assistant  
  * - Modern responsive UI
  * 
- * Crafted by AAR 🚀
+ * Crafted by DevAAR 🚀
  */
 
 import { Routes, Route } from 'react-router-dom'

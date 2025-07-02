@@ -2,9 +2,10 @@
  * Gemini AI Service - Advanced Agricultural Intelligence
  * 
  * @description Core AI service for plant analysis and agricultural recommendations
- * @author Developer AAR
+ * @author DevAAR (Amil Abdullazada)
  * @version 1.0.0
  * @repository https://github.com/UserAAR/smart-fertilizer
+ * @portfolio https://amil.rf.gd
  * 
  * This service provides:
  * - Intelligent plant analysis
@@ -13,7 +14,7 @@
  * - Soil compatibility analysis
  * 
  * Powered by Google Gemini AI
- * Built with expertise by AAR 🌱
+ * Built with expertise by DevAAR 🌱
  */
 
 import { GoogleGenerativeAI } from '@google/generative-ai'

@@ -5,9 +5,11 @@
   "type": "module",
   "description": "AI-powered fertilizer recommendation system for modern agriculture",
   "author": {
-    "name": "Developer AAR",
-    "email": "aar@developer.com",
-    "url": "https://github.com/UserAAR"
+    "name": "DevAAR",
+    "email": "amil.abdullazada@gmail.com",
+    "url": "https://github.com/UserAAR",
+    "portfolio": "https://amil.rf.gd",
+    "linkedin": "https://www.linkedin.com/in/aar-amil"
   },
   "repository": {
     "type": "git",
